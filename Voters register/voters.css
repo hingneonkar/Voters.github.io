@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.img{
+    
+    background: white;
+
+    margin-top: 20px;
+    
+
+}
+.img img{
+    margin-left: 50px;
+}
+body{
+    margin: 0;
+}
+.navbar {
+    text-align: center;
+    padding-top: 2.5px;
+    width: 95%;
+    margin: 10px auto;    
+
+   
+  }
+  
+ .navbar ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(42, 67, 111);
+    width: 100%;
+    border: 1px solid #333;
+   
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(246, 240, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 18px auto;
+    
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: #333;
+  }
+  
+  .active,
+  .active:hover {
+    background-color: #4CAF50;
+  }
+  .navbar form{
+    width: auto;
+     border: none;
+     background-color: rgb(42, 67, 111);
+     padding-top: 20px;
+
+
+  }
+
+  .login-container {
+    float: right;
+  }
+  
+   input[type=text] {
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 13px;
+    border: none;
+    width:120px;
+    margin-left: 10px;
+  }
+  
+   .login-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 10px;
+    background-color: rgb(11, 10, 10);
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+   .login-container button:hover {
+    background-color: green;
+  }
+  
+ form{
+
+   -webkit-text-size-adjust: 100%;
+   -webkit-tap-highlight-color: transparent;
+   --blue: #007bff;
+   --indigo: #6610f2;
+   --purple: #6f42c1;
+   --pink: #e83e8c;
+   --red: #dc3545;
+   --orange: #fd7e14;
+   --yellow: #ffc107;
+   --green: #28a745;
+   --teal: #20c997;
+   --cyan: #17a2b8;
+   --white: #fff;
+   --gray: #6c757d;
+   --gray-dark: #343a40;
+   --primary: #007bff;
+   --secondary: #6c757d;
+   --success: #28a745;
+   --info: #17a2b8;
+   --warning: #ffc107;
+   --danger: #dc3545;
+   --light: #f8f9fa;
+   --dark: #343a40;
+   --breakpoint-xs: 0;
+   --breakpoint-sm: 576px;
+   --breakpoint-md: 768px;
+   --breakpoint-lg: 992px;
+   --breakpoint-xl: 1200px;
+   --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+   --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #212529;
+   text-align: left;
+   margin: 0 30px;
+   padding: 10px;
+   border-radius: 3px;
+   outline: none;
+   box-sizing: border-box;
+   border: 2px solid black;
+   background: gainsboro;
+
+
+ }
+ form .formheading{
+    background: #929592;
+    padding: 10px;
+ }
+.descrip{
+    background: rgb(220, 164, 124);
+    padding: 20px;
+}
+.fontsetting {
+    padding-top: 10px;
+    text-align: right;
+    border:  rgb(221, 221, 221);
+    margin: 5px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    align-items: flex-end;
+
+    
+}
+.note h3{
+    font-size: 1.75rem;  
+      margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: brown;
+    margin-left: 98px;
+  
+    padding-top: 10px;
+}
+.form1 button {
+    width: 80px;
+    padding: 2px;
+    margin-left: 50px;
+    background-color: gray;
+    height: 38px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input{
+    border-radius: 5px;
+    background: rgb(249, 245, 245);
+}
+select{
+    background: #343a40;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 10px;
+    
+}
