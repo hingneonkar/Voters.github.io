@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Nav bar</title>
+    <link rel="stylesheet" href="cssanimation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/afd6aa68df.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Overpass+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar ">
+    
+
+    
+        <ul class="nav">
+
+            <li> <a href="#">home</a>  </li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Explore</a></li>
+        </ul>
+        <div class="searchBox">
+
+            <input class="searchInput"type="text" name="" placeholder="Search">
+            <button class="searchButton" href="#">
+                <i class="material-icons">
+                    search
+                </i>
+            </button>
+        </div>
+    
+ 
+</div>
+       
+        <div class="banner" id="home"></div>
+        <div class="typing">
+          
+<script>
+var string = "Welocme, You can place your quotes here and see the magic !!!",
+strArray = string.split('');
+
+(function animate() {
+'use strict';
+if (strArray.length > 0) {
+  document.querySelector('.typing').textContent += strArray.shift();
+} else {
+  document.querySelector('.typing').textContent = '';
+  strArray = string.split('');
+}
+setTimeout(animate, 80);
+}());
+</script> 
+
+
+
+        </div>
+        <div class="accord">
+        <h1>Images Accordian</h1></div>
+        <div class="accordian">
+     
+        <ul>
+            <li>
+                <div class="image_title">
+                    <a href="#" style="color: white;" >KungFu Panda</a>
+                </div>
+                <a href="#">
+                    <img src="http://thecodeplayer.com/uploads/media/3yiC6Yq.jpg"/>
+                </a>
+            </li>
+            <li>
+                <div class="image_title">
+                    <a href="#"style="color: white;">Toy Story 2</a>
+                </div>
+                <a href="#">
+                    <img src="http://thecodeplayer.com/uploads/media/40Ly3VB.jpg"/>
+                </a>
+            </li>
+            <li>
+                <div class="image_title">
+                    <a href="#"style="color: white;">Wall-E</a>
+                </div>
+                <a href="#">
+                    <img src="http://thecodeplayer.com/uploads/media/00kih8g.jpg"/>
+                </a>
+            </li>
+            <li>
+                <div class="image_title">
+                    <a href="#"style="color: white;">Up</a>
+                </div>
+                <a href="#">
+                    <img src="http://thecodeplayer.com/uploads/media/2rT2vdx.jpg"/>
+                </a>
+            </li>
+            <li>
+                <div class="image_title">
+                    <a href="#"style="color: white;">Cars 2</a>
+                </div>
+                <a href="#">
+                    <img    src="http://thecodeplayer.com/uploads/media/8k3N3EL.jpg"/>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+<h1  style="font-size: xx-large;"  >Animated Grid Gallery</h1>
+    <div class="main">
+     
+
+    <div class="single-column">
+      <a href="#"><img src="https://picsum.photos/300/300?random=1" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=2" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=3" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=4" alt="image"></a>
+    </div>
+    <div class="single-column">
+      <a href="#"><img src="https://picsum.photos/300/300?random=5" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=6" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=7" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=8" alt="image"></a>
+    </div>
+    <div class="single-column">
+      <a href="#"><img src="https://picsum.photos/300/300?random=9" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=10" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=11" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=12" alt="image"></a>
+    </div>
+    <div class="single-column">
+      <a href="#"><img src="https://picsum.photos/300/300?random=13" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=14" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=15" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=16" alt="image"></a>
+    </div>
+    <div class="single-column">
+      <a href="#"><img src="https://picsum.photos/300/300?random=17" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=18" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=19" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=20" alt="image"></a>
+    </div>
+    <div class="single-column">
+      <a href="#"><img src="https://picsum.photos/300/300?random=21" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=22" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=23" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=24" alt="image"></a>
+    </div>
+    <div class="single-column">
+      <a href="#"><img src="https://picsum.photos/300/300?random=25" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=26" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=27" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=28" alt="image"></a>
+    </div>
+    <div class="single-column">
+      <a href="#"><img src="https://picsum.photos/300/300?random=29" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=30" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=31" alt="image"></a>
+      <a href="#"><img src="https://picsum.photos/300/300?random=32" alt="image"></a>
+    </div>
+
+    <script>
+      [...document.querySelectorAll(".single-column")].map(column => {
+        column.style.setProperty("--animation", "slide");
+        column.style.setProperty("height", "200%");
+        column.innerHTML = column.innerHTML + column.innerHTML;
+      });
+      </script>
+  </div>
+    
+<div class="grid-img">
+  <h1   >Photo Grids</h1>
+</div>
+        <div class="image-grid">
+            <div class="image-row">
+              <div class="image image-01"></div>  
+              <div class="image image-02"></div>  
+              <div class="image image-03"></div>  
+            </div> 
+            <div class="image-row">
+              <div class="image image-04"></div>  
+              <div class="image image-05"></div>  
+            </div>  
+            <div class="image-row">
+              <div class="image image-06"></div>  
+              <div class="image image-07"></div>  
+              <div class="image image-08"></div>  
+              <div class="image image-09"></div>  
+            </div>  
+            <div class="image-row">
+              <div class="image image-10"></div>  
+              <div class="image image-11"></div>  
+              <div class="image image-12"></div>  
+            </div> 
+          
+        </div>
+          <div class="quote">
+        <h1>Some quotes for you</h1>
+<blockquote>
+  <p><q>The U.S. is fast approaching $19,000,000,000,000.00 in national debt. This is mathematically impossible to ever pay back &hellip; even if every American was taxed at 100%.</q></p>
+  <footer>Charles Goyette, The Dollar Meltdown</footer>
+</blockquote>
+<blockquote>
+  <p><q>79 million Baby Boomers are about to retire, pull their money out of the economy, and demand their $35 Trillion Dollars in Social Security &amp; Medicare. Think that through&hellip;</q></p>
+  <footer>Robert Kiyosaki</footer>
+</blockquote>
+<blockquote>
+  <p><q>23.4% of Americans are Currently Unemployed &hellip; not the 9.1% they&rsquo;d like you to believe.</q></p>
+  <footer>ShadowStats.com</footer>
+</blockquote>
+<blockquote>
+  <p><q>There are currently 5 job seekers for every 1 job opening in America, forcing wages down by 10%.</q></p>
+  <footer>The Wall Street Journal</footer>
+</blockquote>
+<blockquote>
+  <p><q>Adjusted for inflation, the average yearly earnings for an American male are lower than in 1978.</q></p>
+  <footer>The Wall Street Journal</footer>
+</blockquote>
+
+</blockquote>
+
+</blockquote>
+
+
+
+
+</div>
+
+        <section class="pricing">
+          <h1>Pricing</h1>
+            <div class="row">
+              <div class="col-1-of-3">
+                <div class="card">
+                  <div class="card__side card__side--front card__side--front-1">
+                    <div class="card__pic card__pic--1"></div>
+                    <h4 class="card__heading">
+                      <span class="card__h-span-1">CSS Animation</span>
+                    </h4>
+                    <div class="card__details">
+                      <ul>
+                        <li>CSS 2D Transforms</li>
+                        <li>CSS Text Effects</li>
+                        <li>CSS Gradients</li>
+                        <li>CSS Multiple Backgrounds</li>
+                       
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card__side card__side--back card__side--back-1">
+                    <div class="card__side2-content">
+                      <h4 class="card__price">
+                        <p class="card__price-only">Only</p> 
+                        <p class="card__price-value">$999</p>
+                      </h4>
+                      <a href="" class="btn btn--white">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-1-of-3">
+                <div class="card">
+                  <div class="card__side card__side--front card__side--front-1">
+                    <div class="card__pic card__pic--2"></div>
+                    <h4 class="card__heading">
+                      <span class="card__h-span-2"><span class="card__span-mountain">Bootstrap</span> Animation</span>
+                    </h4>
+                    <div class="card__details">
+                      <ul>
+                        <li>Bootstrap 5 Grid System</li>
+                        <li>Bootstrap 5 Navbars</li>
+                        <li>Bootstrap 5 Pagination</li>
+                        <li>Bootstrap 5 Typography
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card__side card__side--back card__side--back-2">
+                    <div class="card__side2-content">
+                      <h4 class="card__price">
+                        <p class="card__price-only">Only</p> 
+                        <p class="card__price-value">$1999</p>
+                      </h4>
+                      <a href="" class="btn btn--white">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-1-of-3">
+                <div class="card">
+                  <div class="card__side card__side--front card__side--front-1">
+                    <div class="card__pic card__pic--3"></div>
+                    <h4 class="card__heading">
+                      <span class="card__h-span-3">Jquery Animation</span>
+                    </h4>
+                    <div class="card__details">
+                      <ul>
+                        <li>EjQuery Effects - Hide and Show</li>
+                        <li>jQuery Effects - Animation</li>
+                        <li>jQuery - Dimensions</li>
+                       
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card__side card__side--back card__side--back-3">
+                    <div class="card__side2-content">
+                      <h4 class="card__price">
+                        <p class="card__price-only">Only</p> 
+                        <p class="card__price-value">$499</p>
+                      </h4>
+                      <a href="" class="btn btn--white">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+          
+             </div>
+             <footer>
+                <div class="rounded-social-buttons">
+                                  <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                  <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                  <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                  <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                                  <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                              </div>
+              </footer>
+
+
+      
+
+	
+     
+    
+</body>
+
+</html>
