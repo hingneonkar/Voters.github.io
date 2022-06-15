@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="365.css">
+</head>
+<body>
+
+<div class="topnav">
+ <img src="disney-logo.png"  width="80px" >
+  <a  href="#"><b>Movies</a>
+  <a href="#">T.V.serials</a>
+  <a href="#">Audio</a>
+  <div class="search">
+             
+    <form action="#">
+        <input type="text"
+            placeholder=" Search Movies/genre"
+            name="search">
+        <button>
+            <i class="fa fa-search"
+                style="font-size: 18px;">
+            </i>
+        </button>
+    </form>
+</div>
+</div>
+<header>
+ 
+<!--  -->
+  <div class="container ">
+    <div class="mySlides">
+      <!-- <div class="numbertext">1 </div> -->
+      <img src="carasoul 1.jpg" style="width:92%" height="500px">
+    </div>
+  
+    <div class="mySlides">
+      <!-- <div class="numbertext">2 / 6</div> -->
+      <img src="carasoul2.webp" style="width:92%" height="500px">
+    </div>
+  
+    <div class="mySlides">
+      <!-- <div class="numbertext">3 / 6</div> -->
+      <img src="carosuel4.webp" style="width:92%" height="500px">
+    </div>
+      
+    <div class="mySlides">
+      <!-- <div class="numbertext">4 / 6</div> -->
+      <img src="carsoul3.jpg" style="width:92%" height="500px">
+    </div>
+  
+   
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("demo");
+        let captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+      </script>
+</header>
+<section>
+    <div class="title">
+    <h1>Popular in Action</h1>
+    
+    <main>
+ <div class="box"><img src="cover1.jpg" width="200px" height="300px" alt=""><div class="content"><h3>London</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="cover 2.jpg" width="200px" height="300px" alt=""><div class="content"><h3>Justice League</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="cover3.jpg" width="200px" height="300px" alt=""><div class="content"><h3>London</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="cover4.jpg" width="200px" height="300px" alt=""><div class="content"><h3>Lucifer</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="Moonlight-Web_72dpi.jpg" width="200px" height="300px" alt=""><div class="content"><h3>Northman</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="movie-poster-template-design-21a1c803fe4ff4b858de24f5c91ec57f_screen.jpg" width="200px" height="300px" alt=""><div class="content"><h3>Northman</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="movie2.jpg" width="200px" height="300px" alt=""><div class="content"><h3>Northman</h3><p>Action/Drama</p></div></div>
+
+
+
+</main>
+
+
+</section>
+
+<section>
+    <div class="title">
+    <h1>Popular in Sci-Fi</h1>
+    
+    <main>
+ <div class="box"><img src="co1.jpg" width="200px" height="300px" alt=""><div class="content"><h3>Extraction</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="co2.jpg" width="200px" height="300px" alt=""><div class="content"><h3>Justice League</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="images (1).jpg" width="200px" height="300px" alt=""><div class="content"><h3>London</h3><p>Action/Drama</p></div></div>
+
+
+
+</main>
+
+
+</section>
+<section>
+    <div class="title">
+    <h1>Popular in Thriller</h1>
+    
+    <main>
+ <div class="box"><img src="movie3.jpg" width="200px" height="300px" alt=""><div class="content"><h3>London</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="movie4.jpg" width="200px" height="300px" alt=""><div class="content"><h3>Justice League</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="movie5.jpg" width="200px" height="300px" alt=""><div class="content"><h3>London</h3><p>Action/Drama</p></div></div>
+ <div class="box"><img src="movie6.jpg" width="200px" height="300px" alt=""><div class="content"><h3>Lucifer</h3><p>Action/Drama</p></div></div>
+
+
+
+</main>
+
+
+</section>
+
+<div class="footer">  
+  <img src="disney-logo.png"  width="80px" style="" >
+
+  <p>&nbsp;&nbsp;&nbsp; &nbsp;@Copyright <a href="#"> IMDB </a>  2022- All Right Reserved.   </p>
+  </div>  
+</body>
+</html>
